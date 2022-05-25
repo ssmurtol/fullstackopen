@@ -1,0 +1,13 @@
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over selain:
+selain suorittaa tapahtumankäsittelijän,
+joka estää sivun oletusarvoisen toiminnan
+ja sivun uudelleen lataamisen
+
+koodi luo uuden muistiinpanon, piirtää 
+muistiinpanojen listan uudelleen ja
+lähettää uuden muistiinpanon palvelimelle
+end note
+
+palvelin-->selain: JSON-data
